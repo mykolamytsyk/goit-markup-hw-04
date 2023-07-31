@@ -115,6 +115,8 @@ img {
   letter-spacing: 0.02em;
   padding-top: 24px;
   padding-bottom: 24px;
+  position: relative;
+  color: var(--ocean-cl);
 }
 
 .header-menu-link:hover,
@@ -126,9 +128,9 @@ img {
   gap: 40px;
 }
 
-.header-menu-item {
+/* .header-menu-item {
   position: relative;
-}
+} */
 
 .header-address {
   margin-left: auto;
