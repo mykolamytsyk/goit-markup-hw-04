@@ -324,6 +324,8 @@ img {
   background: var(--white, #fff);
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-item-first {
@@ -349,6 +351,34 @@ img {
   letter-spacing: 0.02em; /* 0.32px/16 */
   background: var(--white, #fff);
   text-align: center;
+}
+
+.team-icons-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.team-icons-item {
+  width: 40px;
+  height: 40px;
+}
+.team-social-link {
+  height: 100%;
+  width: 100%;
+  background-color: var(--accent-cl);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: #404bbf;
+}
+
+.team-icons {
+  fill: var(--cloud-cl);
 }
 
 /*#################### SECTION 5 #################*/
