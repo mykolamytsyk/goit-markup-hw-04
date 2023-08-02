@@ -244,6 +244,16 @@ img {
   width: calc((100% - 3 * 24px) / 4);
 }
 
+.peculiarities-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 .peculiarities-name {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
