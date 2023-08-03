@@ -565,10 +565,10 @@ img {
 }
 
 .modal-btn-close:hover .modal-button-icon {
-  fill: #ffffff;
+  fill: var(--white-cl);
 }
 .modal-btn-close:focus .modal-button-icon {
-  fill: #ffffff;
+  fill: var(--white-cl);
 }
 
 .modal-button-icon {
