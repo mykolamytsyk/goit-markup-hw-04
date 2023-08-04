@@ -564,12 +564,12 @@ img {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn-close:hover {
+.modal-button-icon {
   background-color: var(--ocean-cl);
   border: none;
 }
 
-.modal-btn-close:focus {
+.modal-button-icon {
   background-color: var(--ocean-cl);
   border: none;
 }
